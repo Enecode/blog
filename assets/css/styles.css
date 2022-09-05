@@ -1,18 +1,19 @@
 :root {
   --red-500: #c05460;
 
-  --blue-300: #B4BAF8;
-  --blue-350: #A1A8F7;
-  --blue-400: #8D96F6;
-  --blue-450: #7A84F5;
-  --blue-500: #5865F2;
-  --blue-600: #4150F1;
+  --blue-300: hsl(235, 91%, 81%);
+  --blue-350: hsl(235, 89%, 77%);
+  --blue-400: hsl(235, 88%, 73%);
+  --blue-450: hsl(235, 87%, 69%);
+  --blue-500: hsl(235, 86%, 65%);
+  --blue-600: hsl(235, 89%, 57%);
 
-  --gray-50: #fafafa;
-  --gray-700: #404040;
-  --gray-800: #262626;
-  --gray-900: #171717;
-  --gray-950: #141414;
+  --gray-50: hsl(235, 10%, 97%);
+  --gray-700: hsl(235, 5%, 24%);
+  --gray-750: hsl(235, 6%, 18%);
+  --gray-800: hsl(236, 7%, 13%);
+  --gray-900: hsl(240, 9%, 6%);
+  --gray-950: hsl(240, 10%, 3%);
 
   --top-nav-bar-height: 60px;
 }
@@ -29,20 +30,23 @@ main h2 {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  color: var(--blue-400)
+  margin-top: 2rem;
+  color: white;
 }
 
 main h3 {
   font-weight: 600;
   font-size: 1.25rem;
   margin-bottom: 1rem;
-  color: var(--blue-400)
+  margin-top: 2rem;
+  color: white;
 }
 
 main h4 {
   font-weight: 600;
   margin-bottom: 1rem;
-  color: var(--blue-400)
+  margin-top: 2rem;
+  color: white;
 }
 
 main p {
@@ -92,6 +96,8 @@ main p code {
 
 main p {
   margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
 }
 
 main img {
@@ -108,7 +114,7 @@ video {
 }
 
 main blockquote {
-  background: var(--gray-800);
+  background: var(--gray-750);
   border-left: 5px solid var(--gray-50);
   padding: 3px 1em 3px;
   border-radius: 4px;
