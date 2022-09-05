@@ -1,0 +1,20 @@
+baseURL: ""
+languageCode: en-us
+title: Isah Jacob
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: Hello There
+    Content: Software Engineer || Technical Writer
+  socialIcons:
+    - name: Twitter
+    - url: "https://twitter.com/IsahJakub"
+    - name: Linkedin
+    - url: "https://www.linkedin.com/in/isahejacob/"
+    - name: Github
+    - url: "https://github.com/Enecode"
+    
+
+ShowReadingTime: true
+
